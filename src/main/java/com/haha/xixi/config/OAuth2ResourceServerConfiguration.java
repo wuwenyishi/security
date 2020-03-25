@@ -14,7 +14,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.web.AuthenticationEntryPoint;
 
 /**
- * @author weilai
+ * @author admin
  * @desc <li>WebSecurityConfigurerAdapter是默认情况下SpringSecurity的http配置；
  * <li>ResourceServerConfigurerAdapter是默认情况下spring security oauth 的http配置。
  */
@@ -48,7 +48,7 @@ public class OAuth2ResourceServerConfiguration extends ResourceServerConfigurerA
     }
 
     /**
-     * @authour :weilai
+     * @authour :admin
      * @data :2019/5/31 14:45
      * @desc:TODO 自定义输出 401 未授权，需要token 错误
      **/

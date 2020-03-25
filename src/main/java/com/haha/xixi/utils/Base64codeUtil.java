@@ -6,7 +6,7 @@ import static org.apache.commons.codec.binary.Base64.*;
 import static org.apache.commons.lang3.StringUtils.*;
 
 /**
- * @author xuemd
+ * @author admin
  * @Date 2020/3/25
  * @description:
  **/
@@ -33,7 +33,7 @@ public class Base64codeUtil {
     }
 
     /**
-     * @Author: weilai
+     * @Author: admin
      * @Date: 2018/9/21 11:26
      * @desc 用途:获取token时需要把username和 password编码为Base64，并增加前缀Basic
      */
@@ -42,9 +42,6 @@ public class Base64codeUtil {
         str = String2Base64(str);
         return join("Basic ", str);
     }
-    public static void main(String[] args) {
-        String head = Base64codeUtil.getEncode(EncrypMD5Util.eccrypt("xuemingde"), "xue123456");
-        System.out.println(head);
-    }
+
 
 }

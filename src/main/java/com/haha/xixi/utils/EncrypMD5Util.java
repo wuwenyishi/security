@@ -5,7 +5,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author xuemd
+ * @author admin
  * @Date 2020/3/25
  * @description:
  **/

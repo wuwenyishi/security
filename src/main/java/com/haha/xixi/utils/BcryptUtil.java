@@ -6,7 +6,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 
 /**
- * @author weilai
+ * @author admin
  * @data 2019年4月3日 下午3:13:15
  *
  * @desc 类描述

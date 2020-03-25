@@ -10,7 +10,7 @@ public interface IuserBaseExtService {
 
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 新增用户
 	 * @date 2018年10月29日下午1:03:10
 	 * 
@@ -19,7 +19,7 @@ public interface IuserBaseExtService {
 
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 删除用户
 	 * @date 2018年10月30日下午1:44:57
 	 * @param username
@@ -27,7 +27,7 @@ public interface IuserBaseExtService {
 	public void delUser(String username);
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 删除用户
 	 * @date 2018年10月30日下午1:44:57
 	 * @param ids
@@ -35,7 +35,7 @@ public interface IuserBaseExtService {
 	void delUser(List<String> ids);
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @date 2019年4月3日上午11:56:26
 	 * @desc
 	 *       <li>
@@ -47,7 +47,7 @@ public interface IuserBaseExtService {
 
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 根据用户名 查找用户
 	 * @date 2018年10月30日下午2:16:56
 	 * @param username

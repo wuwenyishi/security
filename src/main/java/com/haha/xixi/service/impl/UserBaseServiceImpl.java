@@ -26,7 +26,7 @@ public class UserBaseServiceImpl  implements IuserBaseService {
     }
 
     /**
-     * @Author: weilai
+     * @Author: admin
      * @Date: 2018/9/21 12:46
      * @parms: <li>
      * @desc 新增用户

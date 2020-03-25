@@ -1,7 +1,7 @@
 package com.haha.xixi.exception;
 
 /**
- * @author weilai
+ * @author admin
  * @date 2019/5/3113:46
  * @description: TODO
  */
@@ -20,7 +20,7 @@ public class ErrorJson {
     private Long timestamp = System.currentTimeMillis();
     ;
 
-    private String tips = "Custom exception by weilai";
+    private String tips = "Custom exception by admin";
 
     public ErrorJson build(Integer code, String method, String path, String msg) {
         this.code = code;

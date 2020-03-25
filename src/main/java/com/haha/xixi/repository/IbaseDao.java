@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.repository.NoRepositoryBean;
 
 /**
- * @author weilai
+ * @author admin
  * @param <T>
  * @data 2018年12月6日 上午11:27:03
  *

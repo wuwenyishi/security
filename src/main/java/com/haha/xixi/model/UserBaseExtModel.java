@@ -8,7 +8,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2018年11月11日 下午4:55:33
  *
  * @desc 类描述

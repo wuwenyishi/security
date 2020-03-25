@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import java.util.Map;
 
 /**
- * @author xuemd
+ * @author admin
  * @Date 2020/3/25
  * @description:
  **/

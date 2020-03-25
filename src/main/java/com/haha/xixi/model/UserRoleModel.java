@@ -6,7 +6,7 @@ import javax.persistence.Table;
 import java.util.Date;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2019年4月24日 下午8:12:23
  *
  * @desc 类描述

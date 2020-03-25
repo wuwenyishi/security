@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 
 /**
- * @author Pan Weilong
+ * @author admin
  * @date 2019/6/20 15:06
  * @description: 接口.
  */
@@ -42,7 +42,7 @@ public class HelloController {
     IoauthClientDetailsService oauthService;
 
     /**
-     * @author weilai
+     * @author admin
      * @date 2019年4月3日下午2:45:31
      * @desc <li>向cbm_mag_user_info 数据表增加记录
      */
@@ -60,7 +60,7 @@ public class HelloController {
     }
 
     /**
-     * @author weilai
+     * @author admin
      * @date 2019年4月3日下午2:45:31
      * @desc <li>向cbm_mag_user_info 数据表增加记录
      */

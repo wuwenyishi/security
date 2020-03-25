@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2018年11月4日 下午5:57:19
  * @desc 类描述
  * <li>拦截401错误：401是 未授权：登录失败

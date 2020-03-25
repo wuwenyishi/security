@@ -28,7 +28,7 @@ public class UserBaseExtServiceImpl implements IuserBaseExtService {
 	private IuserBaseExtManageRepo extRepo;
 
 	/**
-	 * @Author: weilai
+	 * @Author: admin
 	 * @Date: 2018/9/21 12:46
 	 * @parms:
 	 *         <li>

@@ -22,7 +22,7 @@ import java.util.Arrays;
 
 
 /**
- * @author xuemd
+ * @author admin
  * @Date 2020/3/25
  * @description: 认证服务器 认证相关的配置Oauth2AuthorizationServerConfig
  **/
@@ -58,7 +58,7 @@ public class Oauth2AuthorizationServerConfig extends AuthorizationServerConfigur
 
 
     /**
-     * @Auther: weilai
+     * @Auther: admin
      * @Date: 2018/10/28 17:24
      * @Description: <li>1、配置tokenStore</li>
      * <li>2、声明加密方式使用AuthenticationManager</li>
@@ -102,7 +102,7 @@ public class Oauth2AuthorizationServerConfig extends AuthorizationServerConfigur
         return new JdbcTokenStores(dataSource);
     }
     /**
-     * @authour :weilai
+     * @authour :admin
      * @data :2019/5/29 13:06
      * @desc://授权端点开放
      **/

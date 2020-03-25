@@ -8,7 +8,7 @@ import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 import javax.sql.DataSource;
 
 /**
- * @author weilai
+ * @author admin
  * @date 2019/5/2916:01
  * @description: TODO
  */

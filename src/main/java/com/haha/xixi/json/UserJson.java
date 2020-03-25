@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import java.io.Serializable;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2019年4月3日 下午2:50:20
  *
  * @desc 类描述

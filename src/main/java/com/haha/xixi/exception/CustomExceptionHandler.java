@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * @author weilai
+ * @author admin
  * @date 2019/5/3110:28
  * @description: 说明 项目采用了springboot + oauth2，所以错误产生就分为两部分拦截：
  * <li> 1、springboot的统一错误处理</li>
@@ -36,7 +36,7 @@ public class CustomExceptionHandler extends BasicErrorController {
     public void initBinder(WebDataBinder binder) {}
     @ModelAttribute
     public void addAttributes(Model model) {
-        model.addAttribute("author", "weilai -13405321158");
+        model.addAttribute("author", "admin -11111111111");
     }
     /**
      * 统一异常处理

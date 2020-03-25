@@ -7,7 +7,7 @@ public interface IuserBaseService extends  UserDetailsService{
 
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 新增用户
 	 * @date 2018年10月29日下午1:03:10
 	 * 
@@ -16,7 +16,7 @@ public interface IuserBaseService extends  UserDetailsService{
 
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 修改用户信息
 	 * @date 2018年10月30日上午11:30:45
 	 * 
@@ -25,7 +25,7 @@ public interface IuserBaseService extends  UserDetailsService{
 
 	/**
 	 * 
-	 * @author weilai
+	 * @author admin
 	 * @desc 删除用户
 	 * @date 2018年10月30日下午1:44:57
 	 * @param username

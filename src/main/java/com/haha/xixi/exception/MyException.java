@@ -1,7 +1,7 @@
 package com.haha.xixi.exception;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2018年12月19日 下午2:29:11
  *
  * @desc 类描述

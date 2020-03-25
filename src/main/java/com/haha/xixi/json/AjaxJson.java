@@ -3,7 +3,7 @@ package com.haha.xixi.json;
 import java.util.Map;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2018年10月30日 上午11:44:33
  *
  * @desc 类描述 控制器返回值包装类型

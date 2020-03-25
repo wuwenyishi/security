@@ -7,7 +7,7 @@ import org.springframework.security.oauth2.provider.error.WebResponseExceptionTr
 import org.springframework.stereotype.Component;
 
 /**
- * @author Administrator
+ * @author admin
  * @data 2018年11月4日 下午5:49:55
  * @desc 类描述
  * <li>

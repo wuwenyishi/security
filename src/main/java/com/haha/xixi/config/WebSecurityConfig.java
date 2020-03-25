@@ -13,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 /**
  *
- * @author xuemd
+ * @author admin
  * @date 2020/3/25
  * @Param 认证服务器 安全相关的配置WebSecurityConfig
  **/

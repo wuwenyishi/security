@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.springframework.security.oauth2.common.exceptions.OAuth2Exception;
 
 /**
- * @author weilai
+ * @author admin
  * @data 2018年11月4日 下午5:35:30
  *
  * @desc 类描述

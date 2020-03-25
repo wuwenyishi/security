@@ -11,7 +11,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author: weilai
+ * @author: admin
  * @date: 2018/9/21 11:33
  * @desc:
  *        <li>类描述 @MappedSuperclass是JPA 特殊要求的。不加的话子类会提示：No identifier specified
