@@ -17,6 +17,7 @@ public class Global {
 
 	public final static List<String> notAuthPathList;
 	static {
+		//设置不需要token的地址
 		notAuthPathList = new ArrayList();
 		notAuthPathList.add("/");
 		notAuthPathList.add("/login/white/**");

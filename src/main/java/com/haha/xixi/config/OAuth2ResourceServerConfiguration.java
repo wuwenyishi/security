@@ -39,10 +39,16 @@ public class OAuth2ResourceServerConfiguration extends ResourceServerConfigurerA
         resources.authenticationEntryPoint(CustomAuthentication()).accessDeniedHandler(customHandler);
     }
 
+    /** 
+     * 设置不拦截拦截地址权限
+     * @author xuemd
+     * @date 2020/3/25
+     * @Param [http]
+     **/
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests().antMatchers(Global.PASS_ADDRESS).permitAll()
+                .authorizeRequests().antMatchers(Global.PASS_ADDRESS).permitAll()//不需要token的地址
                 .anyRequest().authenticated();
 
     }
