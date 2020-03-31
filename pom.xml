@@ -9,10 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.haha</groupId>
-    <artifactId>xixi</artifactId>
+    <artifactId>security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>xixi</name>
+    <name>security</name>
     <description>Demo project for Spring Boot</description>
+    <properties>
+        <docker.image.prefix>demo1</docker.image.prefix>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -115,6 +118,23 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.0</version>
+                <configuration>
+                    <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+                    <!-- Dockerfile的地址 -->
+                    <dockerDirectory>src/main/docker</dockerDirectory>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
+                </configuration>
             </plugin>
         </plugins>
     </build>
